@@ -28,3 +28,5 @@ $routes->get('/staff', 'Staff::index', [
 $routes->get('/customer', 'Customer::index', [
     'filter' => ['auth', 'role:customer']
 ]);
+
+$routes->get('/profile', 'Profile::index');

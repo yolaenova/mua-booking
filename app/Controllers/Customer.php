@@ -6,6 +6,8 @@ class Customer extends BaseController
 {
     public function index()
     {
-        return view('customer/dashboard');
+        return view('customer/dashboard', [
+        'title' => 'BeautyBook | Customer Dashboard'
+    ]);
     }
 }

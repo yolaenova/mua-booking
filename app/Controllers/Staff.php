@@ -6,6 +6,8 @@ class Staff extends BaseController
 {
     public function index()
     {
-        return view('staff/dashboard');
+        return view('staff/dashboard', [
+        'title' => 'BeautyBook | Staff Dashboard'
+    ]);
     }
 }
