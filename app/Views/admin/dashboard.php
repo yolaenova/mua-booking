@@ -15,7 +15,7 @@
 
 <div class="container mt-5">
 
-<h2>Selamat Datang, <?= session('name') ?></h2>
+<h2>Selamat Datang SEMUAAAAA, <?= session('name') ?></h2>
 <p>Dashboard Administrator Booking Makeup Artist</p>
 
 <div class="row mt-4">
