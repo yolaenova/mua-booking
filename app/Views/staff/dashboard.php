@@ -13,6 +13,17 @@
     <h5>Halo, <?= session('name') ?> 👋</h5>
 </div>
 
+<!-- 🔥 MENU TOMBOL -->
+<div class="mb-4">
+    <a href="/staff/jobs" class="btn btn-primary me-2">
+        Lihat Jadwal
+    </a>
+
+    <a href="/staff/history" class="btn btn-outline-secondary">
+        Riwayat
+    </a>
+</div>
+
 <div class="row">
 
     <!-- Jadwal Hari Ini -->
@@ -20,7 +31,7 @@
         <div class="card shadow border-0">
             <div class="card-body">
                 <h5 class="mb-3">Jadwal Hari Ini</h5>
-                <p class="text-muted">Belum ada jadwal hari ini.</p>
+                <p class="text-muted">Silakan cek jadwal lengkap di menu "Lihat Jadwal".</p>
             </div>
         </div>
     </div>
@@ -30,7 +41,7 @@
         <div class="card shadow border-0">
             <div class="card-body">
                 <h5 class="mb-3">Riwayat Pekerjaan</h5>
-                <p class="text-muted">Belum ada data pekerjaan.</p>
+                <p class="text-muted">Lihat riwayat pekerjaan di menu "Riwayat".</p>
             </div>
         </div>
     </div>

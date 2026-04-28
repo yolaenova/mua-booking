@@ -30,3 +30,8 @@ $routes->get('/customer', 'Customer::index', [
 ]);
 
 $routes->get('/profile', 'Profile::index');
+
+$routes->get('/staff/jobs', 'StaffJob::index');
+$routes->get('/staff/process/(:num)', 'StaffJob::process/$1');
+$routes->get('/staff/done/(:num)', 'StaffJob::done/$1');
+$routes->get('/staff/history', 'StaffJob::history');
