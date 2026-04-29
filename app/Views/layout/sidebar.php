@@ -1,4 +1,4 @@
-<div id="sidebar" class="bg-dark text-white vh-100 position-fixed" style="width: 250px; transition: all 0.3s;">
+<div id="sidebar" class="text-white vh-100 position-fixed" style="width: 250px; transition: all 0.3s; background-color: #F875AA;">
     
     <div class="p-3">
         <h5 class="text-center">MENU</h5>
